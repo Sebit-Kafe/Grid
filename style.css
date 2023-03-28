@@ -1,0 +1,127 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "plus minus multi divide"
+    "seven eight nine equals"
+    "four five six equals"
+    "one two three equals"
+    "nothing fullstop AC equals";
+    grid-template-columns: auto ;
+    grid-template-rows: auto ;
+    grid-gap: 0.10rem;
+    background-color: #8aa4ba;
+    padding: 10px;
+
+  }
+#nav{
+    background-color:#424c52;
+    grid-area: nav;
+    color: #ffffff;
+    text-align: end;
+}
+#plus{
+background-color: #d2dce4;
+grid-area: plus;
+text-align: center;
+}
+#minus{
+    background-color: #d2dce4;
+    grid-area: minus;
+    text-align: center;
+    
+    
+}
+#multi{
+    background-color: #d2dce4;
+    grid-area: multi;
+    text-align: center;
+
+}
+#divide{
+    background-color: #d2dce4;
+    grid-area: divide;
+    text-align: center;
+
+}
+#seven{
+    background-color: #eff2f5;
+    grid-area: seven;
+    text-align: center;
+
+}
+#eight{
+    background-color: #eff2f5;
+    grid-area: eight;
+    text-align: center;
+
+}
+#nine{
+    background-color: #eff2f5;
+    grid-area: nine;
+    text-align: center;
+
+}
+#equals{
+    background-color: #f77077;
+    grid-area: equals;
+    text-align: center;
+
+}
+#four{
+    background-color: #eff2f5;
+    grid-area: four;
+    text-align: center;
+
+}
+#five{
+    background-color: #eff2f5;
+    grid-area: five;
+    text-align: center;
+
+}
+#six{
+    background-color: #eff2f5;
+    grid-area: six;
+    text-align: center;
+
+}
+#one{
+    background-color: #eff2f5;
+    grid-area: one;
+    text-align: center;
+
+}
+#two{
+    background-color: #eff2f5;
+    grid-area: two;
+    text-align: center;
+
+}
+#three{
+    background-color: #eff2f5;
+    grid-area: three;
+    text-align: center;
+
+}
+#nothing{
+    background-color: #eff2f5;
+    grid-area: nothing;
+    text-align: center;
+
+}
+#fullstop{
+    background-color: #eff2f5;
+    grid-area: fullstop;
+    text-align: center;
+
+}
+#AC{
+    background-color: #eff2f5;
+    grid-area: AC;
+    text-align: center;
+
+}
+div{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
